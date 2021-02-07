@@ -4,8 +4,12 @@ namespace STCoresTracker\Models;
 
 class User{
 
-    protected $Id;
-    protected $Name;
-    protected $Email;
+    protected int $Id;
+    protected string $FirstName;
+    protected string $LastName;
+    protected string $Email;
+    
+    
+
 
 }
