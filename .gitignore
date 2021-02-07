@@ -1,3 +1,3 @@
 vendor/
 .env
-Run.php
+./Run.php
