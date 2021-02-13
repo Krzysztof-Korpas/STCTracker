@@ -8,7 +8,7 @@ class EnvLoader{
 
     public function __construct(string $Path){
         if(!file_exists($Path)){
-            throw new \InvalidArgumentException(sprintf('%s does not exist', $path));
+            throw new \InvalidArgumentException(sprintf('%s does not exist', $Path));
         }
         $this->Path = $Path;
     }

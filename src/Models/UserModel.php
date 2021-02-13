@@ -8,6 +8,7 @@ class User{
     protected string $FirstName;
     protected string $LastName;
     protected string $Email;
+    protected int $privilages;
     
     
 

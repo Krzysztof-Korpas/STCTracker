@@ -1,3 +1,5 @@
 vendor/
 .env
 ./Run.php
+Run.php
+.phpunit.result.cache
