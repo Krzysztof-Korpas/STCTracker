@@ -2,7 +2,7 @@
 
 namespace STCoresTracker\Models;
 
-class User{
+class UserModel{
 
     protected int $Id;
     protected string $FirstName;
