@@ -1,10 +1,11 @@
 <?php
 namespace STCoresTracker\Console;
 
-class Close{
+class Close extends Command{
 
 
-    public static function execute($string){
+
+    public function execute($string){
         die();
     }
 
