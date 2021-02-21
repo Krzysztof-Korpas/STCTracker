@@ -5,10 +5,12 @@ class Close extends Command{
 
 
 
-    public function execute($string){
+    public static function execute($string){
         die();
     }
 
-    
+    public static function help(){
+        return "Is closing connsole interface and terminate operations";
+    }
 
 }

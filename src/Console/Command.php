@@ -4,6 +4,6 @@ namespace STCoresTracker\Console;
 
 abstract class Command{
 
-    public function execute($string){
+    public static function execute($string){
     }
 }

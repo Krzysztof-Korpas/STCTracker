@@ -4,8 +4,10 @@ namespace STCoresTracker\Console;
 
 class Display extends Command{
     
-    public function execute($string){
+    public static function execute($string){
         echo $string . "\n";
     }
+
+    
 
 }
