@@ -2,7 +2,7 @@
 
 namespace STCoresTracker\Console;
 
-class Command{
+abstract class Command{
 
     public function execute($string){
     }
