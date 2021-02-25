@@ -12,8 +12,8 @@ class Clear extends Command{
     }
 
     public static function help(){
-        $helpText = "Help display this screan";
-        return $helpText;
+        return  "Clening screan\n";
+     
     }
     
 }

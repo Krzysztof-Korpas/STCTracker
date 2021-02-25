@@ -3,8 +3,6 @@ namespace STCoresTracker\Console;
 
 class Close extends Command{
 
-
-
     public static function execute($string){
         die();
     }
